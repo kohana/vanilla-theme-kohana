@@ -5,7 +5,7 @@
 $ThemeInfo['kohana'] = array(
    'Name' => 'Vanilla Kohana',
    'Description' => "The Kohana theme for Vanilla.",
-   'Version' => '0.1',
+   'Version' => '0.2',
    'Author' => "Kohana Team",
    'AuthorEmail' => 'alwayson@kohanaframework.org',
    'AuthorUrl' => 'http://kohanaframework.org/',

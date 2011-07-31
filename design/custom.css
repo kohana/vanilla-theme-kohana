@@ -8,16 +8,16 @@ body { background: #f1f8db; }
 	width: auto;
 }
 
-#Head { background: url("http://kohanaframework.org/media/img/header.png") repeat-x scroll center top #77C244; }
+#Head { background: url("header.png") repeat-x scroll center top #77C244; }
 
 /* Add Kohana logo to header */
 #Head h1 { padding: 15px 0; }
 
 #Head h1 a {
-	background: url("http://kohanaframework.org/media/img/kohana.png") no-repeat;
+	background: url("kohana.png") no-repeat;
 	display: block;
-	width: 191px;
-	height: 62px;
+	width: 200px;
+	height: 70px;
 }
 
 #Head h1 a span { position: absolute; top: -1000px; left: -1000px; }
