@@ -1,0 +1,190 @@
+body { background: #f1f8db; }
+
+#Body {
+	margin: 15px 0 0;
+	overflow: visible;
+	padding: 0 15px;
+	position: relative;
+	width: auto;
+}
+
+#Head { background: url("http://kohanaframework.org/media/img/header.png") repeat-x scroll center top #77C244; }
+
+/* Add Kohana logo to header */
+#Head h1 { padding: 15px 0; }
+
+#Head h1 a {
+	background: url("http://kohanaframework.org/media/img/kohana.png") no-repeat;
+	display: block;
+	width: 191px;
+	height: 62px;
+}
+
+#Head h1 a span { position: absolute; top: -1000px; left: -1000px; }
+
+#Head form { margin-top: 52px; }
+
+/* Link Colors */
+a, a:link, a:visited, a:active { color: #113C32; }
+a:hover { color: #1d6655; }
+
+.Message a, .Message a:link, .Message a:visited, .Message a:active { text-decoration: underline; }
+
+.Message a:hover { text-decoration: none; color: #679e42; }
+
+/* Button Colors */
+a.Button, .Button { color: #113c32; }
+
+a.BigButton {
+	background: #f5bf13;
+	background-image: -moz-linear-gradient(top, rgb(245,191,19), rgb(236,131,13));
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(245,191,19)), color-stop(1, rgb(236,131,13)));
+	border: 1px solid #ec830d;
+	color: #fff;
+	text-shadow: 0 1px 0 #d5750c;
+}
+
+a.BigButton:hover {
+	border: 1px solid #d5750c;
+	color: #f7e9bb;
+}
+
+#Head form input.Button {
+	background: #113c32;
+	color: #efefef;
+	text-shadow: 0 1px 0 #0f362d;
+}
+
+#Head form input.Button:hover {
+	background: #164e41;
+}
+
+/* Discussions List Styles */
+ul.DataList li.Item { border-bottom: 1px solid #b7cda8; }
+ul.DataList div.Meta span.Announcement { background: #ffe7a1; color: #ae7b3d; }
+ul.DataList div.Meta a.Category { background: #f1f8db; }
+ul.DataList div.Meta strong { background: #FFFF80; color: #333; }
+ul.DataList li.New {background-color: #ffe7a1;}
+ul.DataList li.New .Discussion div.Meta strong {background: none; color: inherit;}
+
+.Mine { background: #e2efd9; }
+ul.DataList .Mine.New { background: #f4ce5e; }
+
+.Foot {
+	background: #bcdfa4;
+	border-bottom: 1px solid #89a675;
+}
+
+/* Comment List Styles */
+
+div.Preview div.Message pre code,
+ul.MessageList div.Message pre code {
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+}
+
+/* Blockquotes In Messages */
+.Message blockquote { border: 1px solid #e4cdb0; margin-top: 25px; }
+
+/* Post Comment Form */
+div.MessageForm, div.Tabs {
+	background: #bcdfa4;
+	border-bottom: 1px solid #89a675;
+}
+
+div.MessageForm a.Back, div.MessageForm a.Back:link, 
+div.MessageForm a.Back:hover, div.MessageForm a.Back:active, 
+div.MessageForm a.Back:visited, div.MessageForm a.Cancel, 
+div.MessageForm a.Cancel:link, div.MessageForm a.Cancel:hover, 
+div.MessageForm a.Cancel:active, div.MessageForm a.Cancel:visited, 
+div.MorePager a, div.MorePager a:link, div.MorePager a:hover, 
+div.MorePager a:active, div.MorePager a:visited, 
+a.TabLink, a.TabLink:link, a.TabLink:hover, a.TabLink:active, 
+a.TabLink:visited, div.Tabs li a, div.Tabs li a:link, 
+div.Tabs li a:hover, div.Tabs li a:active, div.Tabs li a:visited {
+	background: #77c244;
+	border: 1px solid #51a01b;
+	color: #efefef;
+}
+
+a.Active, div.Tabs li.Active a {
+	background: #fff;
+	color: #474747;
+}
+
+div.Tabs li a span {
+	background: #164e41;
+	color: #efefef;
+}
+
+
+/* Sidebar Styles */
+#Panel { float: right; width: 23%; }
+
+div.Box { background: #BCDFA4; }
+div.Box h4 { color: #113C32; }
+div.Box dl { background: #E2EFD9; border-color: #B7CDA8; }
+div.Box dl dt { color: #113C32; }
+
+ul.PanelInfo { border-top: 1px solid #B7CDA8; }
+
+ul.PanelInfo li {
+	background: #E2EFD9;
+	border-bottom: 1px solid #B7CDA8;
+}
+
+ul.PanelInfo li.Active { border-bottom: 1px solid #B7CDA8; }
+ul.PanelInfo li.Active a { color: #555; }
+
+body.Profile ul.PanelInfo { border-bottom: none; }
+
+#UserOptions { margin-bottom: 10px; }
+
+div.Popup h1, div.Popup h2 {
+	background: #77C244;
+	border-bottom: 1px solid #77C244;
+}
+
+/* Menu Styles */
+#Head div.Menu { padding: 0 15px; width: auto; }
+#Menu { height: 32px; }
+
+#Menu li {
+	background: #113c32;
+	border-bottom: none;
+	line-height: 32px;
+	margin: 0 10px 0 0;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+}
+
+#Menu li.Highlight { background: #f1f8db; border-color: #f1f8db; }
+#Menu li.NonTab, #Menu li.NonTab a { background: none; border-left: none; border-right: none; }
+ul#Menu { margin: 60px 0 0 79px; padding: 0; }
+
+#Menu a {
+	font-size: 12px;
+	height: 32px;
+	padding: 0 9px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+}
+
+#Menu a:hover { background: #164e41; }
+#Menu a, #Menu li.Active a { color: #efefef; }
+#Menu li.NonTab a:hover { text-decoration: underline; }
+#Menu li.Highlight a { color: #113C32; }
+#Menu li.Highlight a:hover { background: #f1f8db; }
+
+/* Switch the content to the right side */
+#Content { float: left; width: 75%; }
+
+/* Footer Styles */
+#Foot { width: auto; margin: 15px 0 0; padding: 0 15px; clear: both; }
+#Foot div { width: auto; margin: 0; padding: 6px 0; }
+
+/* Form Styles */
+#Body form textarea { width: 98%; }
